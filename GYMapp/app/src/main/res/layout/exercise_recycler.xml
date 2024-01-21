@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_margin="5dp"
+android:background="@drawable/oval_background">
+
+<ImageView
+    android:id="@+id/playIcon"
+    android:background="@drawable/main_page_cylinder_red"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:src="@drawable/baseline_play_arrow_24" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/playIcon"
+    android:layout_toEndOf="@id/playIcon"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/exerciseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise Adi"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/exerciseDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aciklama"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="italic"/>
+</LinearLayout>
+</RelativeLayout>
+

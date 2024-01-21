@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/around_popup"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/suppPopup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Protein"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D05047"/>
+
+    <Button
+        android:id="@+id/suppPopup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BCA"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D05047"/>
+
+    <Button
+        android:id="@+id/suppPopup3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kreatin"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D05047"/>
+
+    <Button
+        android:id="@+id/suppPopup4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preworkout"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D05047"/>
+
+    <Button
+        android:id="@+id/suppPopup5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shoulder"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D05047"/>
+
+    <Button
+        android:id="@+id/suppPopup6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vitamin"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D05047"/>
+
+
+</LinearLayout>

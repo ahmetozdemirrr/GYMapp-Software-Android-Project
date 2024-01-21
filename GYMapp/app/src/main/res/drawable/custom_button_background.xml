@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#EC4C4C" /> <!-- Doldurma rengi, istediğiniz rengi belirtin -->
+    <corners android:radius="0dp" /> <!-- Köşe yuvarlama miktarı, 0 olarak ayarlanmış -->
+</shape>

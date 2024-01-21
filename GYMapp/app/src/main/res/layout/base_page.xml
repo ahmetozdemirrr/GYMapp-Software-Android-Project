@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".BasePage"
+    tools:layout_editor_absoluteY="25dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginBottom="8dp"
+            android:text="Welcome YOUNG WOLF"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/nameText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:text="Way to go! You're on a hot 3-week work out streak"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#808080"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="229dp"
+            android:layout_marginBottom="26dp"
+            android:background="@drawable/login_cylinder_shape_with_frame"
+            android:text="GUIDED TRAINING"
+            android:textAlignment="center"
+            android:textColor="#808080"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout1"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="304dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/main_page_around_menu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/base" />
+
+        <!-- imageView7 -->
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_page_around_menu_photo"
+            android:contentDescription="Description for imageView7"
+            android:onClick="goExercises"
+            android:src="@drawable/base_page_first_row" />
+
+        <!-- textView15 -->
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/main_page_cylinder_with_frame"
+            android:onClick="goExercises"
+            android:text="EXERCİSES"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <!-- imageView8 -->
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/main_page_around_menu_photo"
+            android:contentDescription="Description for imageView8"
+            android:onClick="goSupplements"
+            android:src="@drawable/base_page_second_row" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/main_page_cylinder_with_frame"
+            android:onClick="goSupplements"
+            android:text="SUPPLEMENTS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/main_page_around_menu_photo"
+            android:contentDescription="Description for imageView10"
+            android:onClick="goProfile"
+            android:src="@drawable/base_page_third_row" />
+
+        <!-- textView18 -->
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/main_page_cylinder_with_frame"
+            android:onClick="goProfile"
+            android:text="PROFILE"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

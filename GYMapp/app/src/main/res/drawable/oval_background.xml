@@ -1,0 +1,7 @@
+<!-- res/drawable/oval_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="#FFFFFF" /> <!-- Arkaplan rengini belirtin -->
+    <corners android:radius="16dp" /> <!-- Kenar yarıçapını belirtin -->
+</shape>

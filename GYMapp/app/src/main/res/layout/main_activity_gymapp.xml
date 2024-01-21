@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_page_photo" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#60000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="W O L F  G Y M"
+        android:textAlignment="center"
+        android:textColor="#D05047"
+        android:textSize="55dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="370dp"
+        android:text="NO MORE EXCUSES |"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="480dp"
+        android:text="Achieve your fitness goals with our expert\ntrainers! Join us for personalized workouts\nthat get results"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp" />
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/main_page_cylinder_red"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DO IT NOW"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- LinearLayout ekledim -->
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/main_page_cylinder"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!-- İlk buton -->
+            <Button
+                android:id="@+id/myButton1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#80A9A9A9"
+                android:onClick="signIn"
+                android:text="SIGN IN"
+                android:textColor="#FFFFFF" />
+
+            <!-- İkinci buton -->
+            <Button
+                android:id="@+id/myButton2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:backgroundTint="#D05047"
+                android:onClick="signUp"
+                android:text="SIGN UP"
+                android:textColor="#FFFFFF" /> <!-- İki buton arasında bir boşluk bıraktım -->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

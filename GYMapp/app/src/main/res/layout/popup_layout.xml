@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/around_popup"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnPopup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chest"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D05047"/>
+
+    <Button
+        android:id="@+id/btnPopup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D05047"/>
+
+    <Button
+        android:id="@+id/btnPopup3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leg"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D05047"/>
+
+    <Button
+        android:id="@+id/btnPopup4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Six-pack"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D05047"/>
+
+    <Button
+        android:id="@+id/btnPopup5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shoulder"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D05047"/>
+
+    <Button
+        android:id="@+id/btnPopup6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arm"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D05047"/>
+
+
+</LinearLayout>

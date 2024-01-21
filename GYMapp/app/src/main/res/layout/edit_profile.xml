@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- AppBar layout for using Toolbar as AppBar -->
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- ToolBar widget -->
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/my_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:titleTextColor="#ffff" />
+
+            <!-- Sol tarafındaki ikon (home_icon) -->
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginStart="9dp"
+                android:onClick="goHome"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/home_icon" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="237dp"
+                android:layout_height="30dp"
+                android:text="EDIT PROFILE"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/my_toolbar"
+                app:layout_constraintHorizontal_bias="0.382"
+                app:layout_constraintStart_toEndOf="@+id/imageView2"
+                app:layout_constraintTop_toTopOf="@+id/my_toolbar"
+                app:layout_constraintVertical_bias="0.588" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="181dp"
+        android:layout_marginBottom="317dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/nameAndSurname"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/main_page_cylinder_black_with_frame"
+            android:ems="10"
+            android:hint="Enter Height"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#808080"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="218dp" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/main_page_cylinder_black_with_frame"
+            android:ems="10"
+            android:hint="Enter Gender"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#808080"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="135dp" />
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/main_page_cylinder_black_with_frame"
+            android:ems="10"
+            android:hint="Enter weight"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#808080"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="369dp" />
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/main_page_cylinder_black_with_frame"
+            android:ems="10"
+            android:hint="Enter phone number"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#808080"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="131dp"
+            android:layout_height="62dp"
+            android:backgroundTint="#D05047"
+            android:onClick="saveChanges"
+            android:text="SAVE"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="497dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
