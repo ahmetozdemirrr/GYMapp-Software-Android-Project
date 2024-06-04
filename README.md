@@ -65,8 +65,9 @@ This repository contains course homework and their solutions.
 |--------|----------|---------- |----------	|
 | Grades | 	100 	|    93 	|    75		|
 
-#### report 2 -> (-7) for wrong context model and lack of server
-#### report 3 -> (-25) Insufficiency of User Requirement Document
+
+### report 2 -> (-7) for wrong context model and lack of server
+### report 3 -> (-25) Insufficiency of User Requirement Document
 
 The course was given by Prof. Dr. Habil Kalkan at Gebze Technical University for the Department of Computer Engineering in the Fall 2024.
 
